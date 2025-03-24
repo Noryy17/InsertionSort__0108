@@ -33,7 +33,7 @@ void input ()
 
 }
 
-void insertonsort ()
+void insertionsort ()
 {// Procedure Insertionsort
 
     int temp; //Membuat variable data temporer atau penyimpanan sementara
@@ -70,4 +70,13 @@ void display ()
     }
     cout <<endl; //Output baris kosong
 
+}
+
+int main ()
+{
+    input ();
+    insertionsort();
+    display ();
+    system ("pause");
+    return 0;
 }
