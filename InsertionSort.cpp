@@ -11,7 +11,7 @@ void input ()
         cout << "Masukkan Jumlah Data Pada Array : ";
         cin >> n;
 
-        if (n <=20)
+        if (n <= 20)
         {//membuat kondisi n tidak lebih dari 20
           break;
         }
@@ -28,6 +28,7 @@ void input ()
     for (int i = 0; i < n; i++)
     {
         cout << "Data ke-" << (i +1) << ":";
+        cin >> arr [i];
     }
 
 
