@@ -55,3 +55,13 @@ void insertonsort ()
     }
 
 }
+
+void display ()
+{
+    cout <<endl; //output baris kosong
+    cout << "==============================" << endl;
+    cout << "Total Pass = " << n-1 <<endl;
+    cout << "==============================" << endl;
+    cout << "Element Array yang telah tersusun" << endl;
+
+}
