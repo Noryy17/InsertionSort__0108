@@ -39,4 +39,19 @@ void insertonsort ()
     int temp; //Membuat variable data temporer atau penyimpanan sementara
     int j, i; // Membuat Variable j sebagai penanda
 
-  
+    for (i = 1; i <= n -1; i++)
+    {//Langkah 1
+        temp = arr[i]; //Langlah 2
+
+        j = i - 1;//Langkah 3
+
+        while (j >= 0 && arr [j] > temp )//Langkah 4
+        {
+            arr[j +1] = arr [j]; //Langkah 4a
+            j--; //Langkah 4b
+        }
+        arr [j +1] = temp;
+
+    }
+
+}
